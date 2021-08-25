@@ -28,5 +28,7 @@ def merge(left,right):
   return result + left[leftindex:] + right[rightindex:]
 
 
-x = mergesort(arr)
-print(x)
+
+if __name__ == '__main__':
+  x = mergesort(arr)
+  print(x)
